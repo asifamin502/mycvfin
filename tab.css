@@ -1,0 +1,57 @@
+.fullcv{
+  padding-top: 5px;
+    max-width: 680px;
+    margin: 0 auto;
+    height: 750px;
+    
+}
+
+
+div.top {
+  div {
+    img {
+
+    }
+  }
+
+  div.top_info {
+    h1 {
+
+    }
+
+    h2 {
+
+    }
+
+    h3 {
+
+    }
+
+    hr#hr {
+
+    }
+
+    p {
+        font-size: 0.76rem;
+
+    }
+  }
+}
+
+
+div.projects {
+  h2 {
+
+  }
+
+  hr#hr {
+
+  }
+
+  ul {
+    li {
+        font-size: 0.8rem;
+
+    }
+  }
+}

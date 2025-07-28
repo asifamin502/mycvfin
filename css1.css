@@ -1,0 +1,420 @@
+*{
+    
+ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  
+
+}
+
+.fullcv{
+  padding-top: 5px;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 750px;
+
+    
+}
+
+::selection{
+    color: mediumvioletred;
+    background-color: rgba(230, 194, 19, 0.114);
+}
+
+
+
+
+.top{
+  display: flex;
+  gap: 10px;
+  background-color: whitesmoke;
+   padding-left: 10%;
+   height: 290px;
+   transition: 2s;
+}
+
+.top :hover{
+  transition: 0.5s;
+    font-weight: bold;
+
+}
+
+.top img{
+  height: 290px;
+}
+
+#hr{
+   border: 3px solid orange;
+    border-radius: 5px;
+    width: 15%;
+   
+  }
+
+  .top_info{
+    margin-top: 30px;
+    
+   
+    
+  }
+
+  .top_info p{
+width: 70%;
+
+  }
+
+  .mid{
+    display: flex;
+    
+
+  }
+div.top {
+  div {
+    img {
+
+    }
+  }
+
+  div.top_info {
+    h1 {
+ letter-spacing: 0.8rem;
+    }
+
+    h2 {
+letter-spacing: 0.5rem;
+    }
+
+    h3 {
+letter-spacing: 0.3rem;
+    }
+
+    hr#hr {
+
+    }
+
+    p {
+
+    }
+  }
+}
+div.skills {
+  h2 {
+    letter-spacing: 0.3rem;
+
+  }
+
+  hr#hr {
+
+  }
+
+  ul {
+    li.s1 {
+
+    }
+
+    li.s2 {
+
+    }
+
+    li.s3 {
+
+    }
+  }
+}
+
+
+
+div.language {
+  h2 {
+ letter-spacing: 0.3rem;
+  }
+
+  hr#hr {
+
+  }
+
+  ul {
+    li {
+
+    }
+  }
+}
+
+
+  .left{
+background-color: rgb(50, 50, 50);
+width: 400px;
+    padding-left: 7%;
+    padding-top: 4%;
+    color: white;
+ display: flex;
+ flex-direction: column;
+  gap: 5%;
+
+  }
+
+  .skills > ul{
+    list-style-type: circle;
+    
+
+  }
+
+  .language > ul{
+    list-style-type: circle;
+
+  }
+
+  .img > ul{
+    list-style-type: none;
+  }
+
+  .contract{
+    padding-top: 6%;
+  }
+
+  .c_info > ul{
+    list-style-type: none;
+  }
+
+  .contract h2{
+    letter-spacing: 0.3rem;
+  }
+
+  .contract_container{
+    padding-top: 2%;
+    display: flex;
+    gap: 2%;
+  }
+
+  .c_info > ul > li >a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+
+
+  .img{
+    background-color: orangered;
+    border-style: inset;
+    border-radius: 5px;
+  }
+
+  .right{
+background-color: rgb(24, 24, 24);
+width: 600px;
+    padding-left: 7%;
+    padding-top: 2%;
+    color: white;
+ display: flex;
+ flex-direction: column;
+  gap: 5%;
+
+  }
+
+
+  .skills{
+      transition: 2s;
+  }
+  .skills li{
+    position: relative;
+    margin: 2% 0;
+
+  
+  }
+
+
+  .skills .s1::before{
+    content: '';
+    position: absolute;
+    top: 97%;
+   
+  background-color: rgb(35, 135, 85);
+    height: 25%;
+    width: 50%;
+    border-radius: 10px;
+  }
+
+  .skills .s1::after{
+ content: '';
+    position: absolute;
+   top: 97%;
+    right: 55%;
+   
+  background-color: yellowgreen;
+    height: 25%;
+    width: 45%;
+    border-radius: 10px;
+
+
+  } 
+  .skills .s2::before{
+    content: '';
+    position: absolute;
+    top: 90%;
+   
+  background-color: rgb(35, 135, 85);
+    height: 25%;
+    width: 50%;
+    border-radius: 10px;
+
+
+
+
+  }
+
+  
+
+  .skills .s2::after{
+ content: '';
+    position: absolute;
+   top: 90%;
+    right: 55%;
+   
+  background-color: yellowgreen;
+    height: 25%;
+    width: 45%;
+    border-radius: 10px;
+
+
+  } 
+  .skills .s3::before{
+    content: '';
+    position: absolute;
+    top: 90%;
+   
+  background-color: rgb(35, 135, 85);
+    height: 25%;
+    width: 50%;
+    border-radius: 10px;
+
+
+
+
+  }
+  .skills .s3::after{
+ content: '';
+    position: absolute;
+   top: 90%;
+    right: 60%;
+   
+  background-color: yellowgreen;
+    height: 25%;
+    width: 40%;
+    border-radius: 10px;
+    
+
+
+  } 
+
+  .education h2{
+    letter-spacing: 0.3rem;
+  }
+
+  .education  h3{
+    background-color: orangered;
+    border-style: inset;
+    border-radius: 7px;
+    margin-top: 2%;
+    width: fit-content;
+    height: fit-content;
+    color: rgb(44, 44, 198);
+    transition: 2s;
+
+
+
+  }
+
+  .projects{
+    padding-top: 2%;
+  }
+
+  .projects h2{
+    letter-spacing: 0.2rem;
+  }
+
+
+  .skills:hover{
+    color: yellowgreen;
+    transition: 2s;
+    font-weight: bold;
+  }
+  .language:hover{
+    color: yellowgreen;
+    transition: 2s;
+    font-weight: bold;
+  }
+  .contract:hover{
+    color: yellowgreen;
+    transition: 2s;
+    font-weight: bold;
+  }
+  .contract li a:hover{
+    color: yellowgreen;
+    transition: 2s;
+    font-weight: bold;
+  }
+
+   .education:hover{
+    color: yellowgreen;
+    transition: 0.5s;
+    font-weight: bold;
+  }
+   .projects:hover{
+    color: yellowgreen;
+    transition: 2s;
+    font-weight: bold;
+  }
+
+  .bottom{
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+  }
+
+.btm1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+
+.btm1 a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.2rem;
+    transition: 2s;
+}
+
+.btm2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    transition: 2s;
+}
+
+.btm2 p{
+  color: whitesmoke;
+    transition: 2s;
+  
+}
+
+   .btm1 :hover{
+    color: rgb(201, 86, 66);
+    transition: 0.5s;
+    font-weight: bold;
+  }
+   .btm2 :hover{
+    color: rgb(169, 70, 53);
+    transition: 0.5s;
+    font-weight: bold;
+  }
+
+    .bottom{
+    letter-spacing: 0.2rem;
+  }
