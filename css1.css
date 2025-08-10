@@ -415,6 +415,82 @@ width: 600px;
     font-weight: bold;
   }
 
+@media print {
+  
+  @page {
+    size: A4 portrait;
+    margin: 5mm;
+  }
+
+  body {
+    zoom: 0.8; 
+    background: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+.top_info p{
+
+  font-weight: bold;
+}
+
+ 
+  .fullcv {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .top img{
+ padding-top: 10%;
+ padding-right: 5%;
+width: 90vw;
+ height: 280px;
+
+}
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+
+ .top{
+  padding-top: 0.5%;
+ }
+
+
+
+ .top_info h2{
+  color: black;
+ }
+
+  
+  *:hover {
+    font-weight: normal !important;
+    color: inherit !important;
+    transition: none !important;
+  }
+
+ 
+  img {
+    max-width: 100% !important;
+    /* height: auto !important; */
+  }
+
+  .right .education h3, h2 , li {
+    color: white;
+  }
+
+  .left{
+    height: 700px;
+  }
+  .bottom {
+    width: 1000px;
+    color: white;
+    page-break-inside: avoid;
+  }
+}
+
     .bottom{
     letter-spacing: 0.2rem;
+
   }
