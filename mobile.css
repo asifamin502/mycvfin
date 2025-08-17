@@ -1,0 +1,398 @@
+
+/* 
+.fullcv{
+  padding-top: 5px;
+    
+    max-width: 425px;
+        height: 896px; 
+    margin: 0 auto;
+   
+    
+} */
+
+.fullcv{
+  max-width: 425px;
+        height: 896px;
+
+}
+
+::selection{
+    color: mediumvioletred;
+    background-color: rgba(230, 194, 19, 0.114);
+}
+/* 
+div.top {
+  div {
+    img {
+height: 140px;
+      width: 100px;
+    
+    }
+  } */
+
+  .top img{
+     height: 60%;
+        width: 65%;
+  
+}
+
+  .bcktoportfolio{
+   
+   display: none;
+  }
+
+  div.top_info {
+    
+    margin-top: 1%;
+    h1 {
+        font-size: 1rem;
+        letter-spacing: 0.13rem;
+
+    }
+
+    h2 {
+        font-size: 0.9rem;
+          letter-spacing: 0.2rem;
+
+    }
+
+    h3 {
+font-size: 0.6rem;
+letter-spacing: 0.2rem;
+    }
+
+    hr#hr {
+         border: 2px solid orange;
+   
+
+    }
+
+    p {
+      margin-top: 2%;
+font-size: 0.37rem;
+font-weight: bold;
+    }
+  }
+}
+
+.top{
+height: 140px;
+width: 300px;
+ margin-left: 6%;
+}
+
+
+
+
+div.skills {
+  h2 {
+    font-size: 0.9rem;
+
+  }
+
+  hr#hr { border: 2px solid orange;
+
+  }
+
+  ul {
+    font-size: 0.5rem;
+    li.s1 {
+
+    }
+
+    li.s2 {
+
+    }
+
+    li.s3 {
+
+    }
+  }
+}
+
+
+  .skills .s1::before{
+    content: '';
+    position: absolute;
+    top: 97%;
+   
+  background-color: rgb(35, 135, 85);
+    height: 25%;
+    width: 40%;
+    border-radius: 10px;
+  }
+
+  .skills .s1::after{
+ content: '';
+    position: absolute;
+   top: 97%;
+    right: 65%;
+   
+  background-color: yellowgreen;
+    height: 25%;
+    width: 35%;
+    border-radius: 10px;
+
+
+  } 
+
+
+
+
+   .skills .s2::before{
+    content: '';
+    position: absolute;
+    top: 90%;
+   
+  background-color: rgb(35, 135, 85);
+    height: 25%;
+    width: 40%;
+    border-radius: 10px;
+
+
+
+
+  }
+
+  
+
+  .skills .s2::after{
+ content: '';
+    position: absolute;
+   top: 90%;
+    right: 65%;
+   
+  background-color: yellowgreen;
+    height: 25%;
+    width: 35%;
+    border-radius: 10px;
+
+
+  } 
+
+
+    .skills .s3::before{
+    content: '';
+    position: absolute;
+    top: 90%;
+   
+  background-color: rgb(35, 135, 85);
+    height: 25%;
+    width: 40%;
+    border-radius: 10px;
+
+
+
+
+  }
+  .skills .s3::after{
+ content: '';
+    position: absolute;
+   top: 90%;
+    right: 70%;
+   
+  background-color: yellowgreen;
+    height: 25%;
+    width: 30%;
+    border-radius: 10px;
+    
+
+
+  } 
+
+
+    .left{
+
+width: 130px;
+    padding-left: 7%;
+    padding-top: 4%;
+    color: white;
+ display: flex;
+ flex-direction: column;
+  gap: 5%;
+
+  }
+
+  .right{
+background-color: rgb(24, 24, 24);
+width: 170px;
+    padding-left: 7%;
+    padding-top: 2%;
+    color: white;
+ display: flex;
+ flex-direction: column;
+  gap: 5%;
+
+  }
+
+  .mid{
+    margin-left: 6%;
+  }
+
+div.language {
+  h2 {
+      font-size: 0.8rem;
+       letter-spacing: 0.16rem;
+    
+
+  }
+
+  hr#hr {
+
+  }
+
+  ul {
+    li {
+       font-size: 0.5rem;
+
+    }
+  }
+}
+
+div.contract {
+  h2 {
+     font-size: 1rem;
+       letter-spacing: 0.2rem;
+
+  }
+
+  hr#hr {
+
+  }
+
+  div.contract_container {
+    div.img {
+      height: 22%;
+      ul {
+        li {
+          img {
+            height: 12px;
+
+          }
+        }
+      }
+    }
+
+    div.c_info {
+      ul {
+        li {
+          a {
+              font-size: 0.4rem;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+div.education {
+  div {
+    h2 {
+      font-size: 1rem;
+       letter-spacing: 0.2rem;
+
+    }
+
+    hr#hr {
+
+    }
+
+    h3 {
+      font-size: 0.6rem;
+
+
+    }
+
+    ul {
+      li {
+        font-size: 0.5rem;
+
+      }
+    }
+  }
+}
+
+
+div.projects {
+  h2 {
+      font-size: 0.8rem;
+       letter-spacing: 0.13rem;
+
+  }
+
+  hr#hr {
+
+  }
+
+  ul {
+    li {
+         font-size: 0.4rem;
+
+    }
+  }
+}
+
+div.bottom {
+  max-width: 300px;
+ margin-left: 5.9%;
+  div.btm1 {
+    div {
+      a {
+         font-size: 0.7rem;
+       letter-spacing: 0.13rem;
+
+      }
+    }
+  }
+
+  div.btm2 {
+    p {
+ font-size: 0.5rem;
+       letter-spacing: 0.13rem;
+    }
+  }
+}
+
+
+.skills:hover{
+    color: yellowgreen;
+    transition: 1s;
+    font-weight: bold;
+  }
+  .language:hover{
+    color: yellowgreen;
+    transition: 1s;
+    font-weight: bold;
+  }
+  .contract:hover{
+    color: yellowgreen;
+    transition: 1s;
+    font-weight: bold;
+  }
+  .contract li a:hover{
+    color: yellowgreen;
+    transition: 1s;
+    font-weight: bold;
+  }
+
+   .education:hover{
+    color: yellowgreen;
+    transition: 1s;
+    font-weight: bold;
+  }
+   .projects:hover{
+    color: yellowgreen;
+    transition: 1s;
+    font-weight: bold;
+  }
+
+
+  .bottom :hover{
+     color: tomato;
+    transition: 1s;
+    font-weight: bold;
+  }
