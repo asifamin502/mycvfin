@@ -1,3 +1,4 @@
+
 *{
     
  padding: 0;
@@ -312,35 +313,6 @@ width: 600px;
 
   } 
 
-     .skills .s4::before{
-    content: '';
-    position: absolute;
-    top: 90%;
-   
-  background-color: rgb(35, 135, 85);
-    height: 25%;
-    width: 50%;
-    border-radius: 10px;
-
-
-
-
-  }
-  .skills .s4::after{
- content: '';
-    position: absolute;
-   top: 90%;
-    right: 70%;
-   
-  background-color: yellowgreen;
-    height: 25%;
-    width: 30%;
-    border-radius: 10px;
-    
-
-
-  } 
-
   .education h2{
     letter-spacing: 0.3rem;
   }
@@ -444,10 +416,6 @@ width: 600px;
     font-weight: bold;
   }
 
-    .bottom{
-    letter-spacing: 0.2rem;
-  }
-
 @media print {
   
   @page {
@@ -522,3 +490,9 @@ width: 90vw;
     page-break-inside: avoid;
   }
 }
+
+    .bottom{
+    letter-spacing: 0.2rem;
+
+  }
+>>>>>>> cbbad6ad2bd9f1f9c4651906e9221bef2df9193d
