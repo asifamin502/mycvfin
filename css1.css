@@ -312,6 +312,34 @@ width: 600px;
 
 
   } 
+  .skills .s4::before{
+    content: '';
+    position: absolute;
+    top: 90%;
+   
+  background-color: rgb(35, 135, 85);
+    height: 25%;
+    width: 50%;
+    border-radius: 10px;
+
+
+
+
+  }
+  .skills .s4::after{
+ content: '';
+    position: absolute;
+   top: 90%;
+    right: 60%;
+   
+  background-color: yellowgreen;
+    height: 25%;
+    width: 40%;
+    border-radius: 10px;
+    
+
+
+  } 
 
   .education h2{
     letter-spacing: 0.3rem;
